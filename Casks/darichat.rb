@@ -9,10 +9,9 @@ cask "darichat" do
   desc "Team chat with translation and AI"
   homepage "https://darichat.com/"
 
-  auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :monterey"
   depends_on formula: "librorum/darichat/dari"
+  depends_on macos: :monterey
 
   app "DariChat.app"
 end
