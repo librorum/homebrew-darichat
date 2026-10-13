@@ -11,6 +11,7 @@ cask "darichat" do
 
   auto_updates true
   depends_on arch: :arm64
+  depends_on macos: ">= :monterey"
   depends_on formula: "librorum/darichat/dari"
 
   app "DariChat.app"
