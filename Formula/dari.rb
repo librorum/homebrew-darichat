@@ -2,27 +2,27 @@
 class Dari < Formula
   desc "CLI for DariChat and DariWiki"
   homepage "https://darichat.com/"
-  version "0.4.7"
+  version "0.4.8"
 
   on_macos do
     on_arm do
-      url "https://darichat.com/api/file/download/dari-0.4.7-darwin-arm64"
-      sha256 "24e0138879f9f3387f1ff18902f6dedb0d2002ab7350ba3e1bf8ccddee366600"
+      url "https://darichat.com/api/file/download/dari-0.4.8-darwin-arm64"
+      sha256 "2bfc3fab8e93050802a259a43d11cd90107d3763f6a0d06d62013e685f5327fd"
     end
     on_intel do
-      url "https://darichat.com/api/file/download/dari-0.4.7-darwin-amd64"
-      sha256 "adb164665551c77e7003fe22e021f920dc152e78b9794448017baa12433ac0f5"
+      url "https://darichat.com/api/file/download/dari-0.4.8-darwin-amd64"
+      sha256 "79913b66b2c95c7be8a34ffef713ad565815ab4bb20d831da5adb39414f24fad"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://darichat.com/api/file/download/dari-0.4.7-linux-arm64"
-      sha256 "edc972390d3a5b19ce23ab53f464b4207337e0c964c166d905b82083e46da3f7"
+      url "https://darichat.com/api/file/download/dari-0.4.8-linux-arm64"
+      sha256 "49ee4f5f001b8ed1ca827318f95fb5c0f85b58840df2dbe37d44b16b27e9e471"
     end
     on_intel do
-      url "https://darichat.com/api/file/download/dari-0.4.7-linux-amd64"
-      sha256 "c0a9a3c6406fa2fd3743d6110558632fefefee267acfd4c7c1179933fb68d00b"
+      url "https://darichat.com/api/file/download/dari-0.4.8-linux-amd64"
+      sha256 "d32f12e8085c1fdbc2ca443406214b6cd8182df02ab2aeb89c51f2d6f5130eb7"
     end
   end
 
